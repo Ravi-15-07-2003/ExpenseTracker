@@ -1,0 +1,124 @@
+/* client/src/components/Dashboard.css */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logout-btn {
+  background-color: #dc3545;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+  transform: scale(1.03);
+}
+
+
+.summary-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.summary-item {
+  text-align: center;
+}
+
+.summary-item h4 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.summary-item p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.summary-item .positive {
+  color: green;
+}
+
+.summary-item .negative {
+  color: red;
+}
+
+.form-section,
+.filter-section,
+.list-section,
+.chart-section {
+  margin-bottom: 30px;
+}
+
+.filter-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-section input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.chart-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.pie-center {
+  text-align: center;
+}
+
+.pie-center canvas {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
+/* client/src/components/Dashboard.css */
+.chart-toggle {
+  margin-top: 10px;
+  text-align: right;
+  border-bottom: 2px solid #6A5ACD; /* Bold underline added */
+  padding-bottom: 5px;
+}
+
+.chart-toggle button {
+  padding: 8px 12px;
+  margin-left: 5px;
+  border: none;
+  background-color: #ccc;
+  color: #333;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold; /* Make button text bold */
+}
+
+.chart-toggle button.active,
+.chart-toggle button:hover {
+  background-color: #6A5ACD; /* SlateBlue as example */
+  color: #fff;
+}
+
