@@ -40,6 +40,7 @@ Edit
 │── .env  # Environment variables  
 │── package.json  
 │── README.md  
+
 🚀 Installation & Setup
 1️⃣ Clone the repository
 sh
