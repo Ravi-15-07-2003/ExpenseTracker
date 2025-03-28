@@ -46,7 +46,7 @@ Edit
 sh
 Copy
 Edit
-git clone https://github.com/your-username/expense-tracker.git
+git clone https://github.com/RAVI-15-07-2003/expense-tracker.git
 cd expense-tracker
 2️⃣ Install dependencies
 sh
@@ -62,7 +62,7 @@ Create a .env file in the backend folder and add:
 env
 Copy
 Edit
-MONGO_URI=your_mongodb_connection_string
+MONGO_URI= mongodb://localhost:27017/expense
 JWT_SECRET=your_jwt_secret
 PORT=5000
 4️⃣ Run the application
